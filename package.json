@@ -1,0 +1,43 @@
+{
+  "name": "cms-vue",
+  "version": "1.0.0",
+  "description": "管理系统",
+  "author": "jiangrushe",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "build:springboot": "vue-cli-service build --mode springboot",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.16.1",
+    "babel-runtime": "^6.0.0",
+    "better-scroll": "^1.15.1",
+    "core-js": "^2.6.5",
+    "create-keyframe-animation": "^0.1.0",
+    "element-ui": "^2.4.11",
+    "fastclick": "^1.0.6",
+    "good-storage": "^1.0.1",
+    "js-base64": "^2.1.9",
+    "jsonp": "0.2.1",
+    "lyric-parser": "^1.0.1",
+    "qs": "^6.7.0",
+    "vue": "^2.6.10",
+    "vue-lazyload": "1.0.3",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.5.0",
+    "@vue/cli-plugin-eslint": "^3.5.0",
+    "@vue/cli-service": "^3.5.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
